@@ -388,11 +388,11 @@ const TransactionTable = ({ transactions }) => {
                       </DropdownMenuTrigger>
                       <DropdownMenuContent>
                         <DropdownMenuItem
-                        // onClick={() =>
-                        //   router.push(
-                        //     `/transaction/create?edit=${transaction.id}`
-                        //   )
-                        // }
+                          onClick={() =>
+                            router.push(
+                              `/transaction/create?edit=${transaction.id}`
+                            )
+                          }
                         >
                           Edit
                         </DropdownMenuItem>
